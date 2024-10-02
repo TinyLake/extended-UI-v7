@@ -1,4 +1,4 @@
-const barBuilder = require("extended-ui_MDTX/utils/draw/bar-builder");
+const barBuilder = require("utils/draw/bar-builder");
 
 let storage = new Map();
 

@@ -1,8 +1,8 @@
-const Alerts = require("extended-ui_MDTX/ui/alerts/alert");
-const output = require("extended-ui_MDTX/utils/output-wrapper");
-const unitsCounter = require("extended-ui_MDTX/units/units-counter");
-const relativeValue = require("extended-ui_MDTX/utils/relative-value");
-const drawTasks = require("extended-ui_MDTX/utils/draw/draw-tasks");
+const Alerts = require("ui/alerts/alert");
+const output = require("utils/output-wrapper");
+const unitsCounter = require("units/units-counter");
+const relativeValue = require("utils/relative-value");
+const drawTasks = require("utils/draw/draw-tasks");
 
 const sendCooldown = 60 * 60 // 1 min;
 const searchSize = 36 * 8; // 36 blocks around destroyer

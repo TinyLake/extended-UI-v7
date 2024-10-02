@@ -1,4 +1,4 @@
-const iconsUtil = require("extended-ui_MDTX/utils/icons");
+const iconsUtil = require("utils/icons");
 
 let isBuilded = false;
 let contentTable;

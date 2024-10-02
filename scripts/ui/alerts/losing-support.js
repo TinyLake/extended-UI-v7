@@ -1,6 +1,6 @@
-const Alerts = require("extended-ui_MDTX/ui/alerts/alert");
-const output = require("extended-ui_MDTX/utils/output-wrapper");
-const supportUnits = require("extended-ui_MDTX/units/support-units");
+const Alerts = require("ui/alerts/alert");
+const output = require("utils/output-wrapper");
+const supportUnits = require("units/support-units");
 
 const maxTime = 60*300 // 5 min;
 

@@ -1,8 +1,8 @@
 global.eui = {} // global mod object for fast access to important mod functions from console
-global.eui.relativeValue = require("extended-ui_MDTX/utils/relative-value");
-global.eui.drawTasks = require("extended-ui_MDTX/utils/draw/draw-tasks");
+global.eui.relativeValue = require("utils/relative-value");
+global.eui.drawTasks = require("utils/draw/draw-tasks");
 
-const output = require("extended-ui_MDTX/utils/output-wrapper");
+const output = require("utils/output-wrapper");
 
 const modules = [
     "utils/polyfill",
@@ -35,7 +35,7 @@ const modules = [
 
 for (let module of modules) {
     try {
-        require("extended-ui_MDTX/" + module);
+        require(module);
     } catch(e) {
         log("Extended UI: can't load " + module + "\nIn " + e.fileName + "#" + e.lineNumber + " " + e.name + ': ' + e.message);
         output.debug(Core.bundle.format("eui.load-error", module));

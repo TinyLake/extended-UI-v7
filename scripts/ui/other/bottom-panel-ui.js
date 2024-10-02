@@ -1,7 +1,7 @@
-const iconsUtil = require("extended-ui_MDTX/utils/icons");
-const coreUnits = require("extended-ui_MDTX/units/core-units");
-const blacklist = require("extended-ui_MDTX/units/blacklist");
-const euiEvents = require("extended-ui_MDTX/utils/event/events");
+const iconsUtil = require("utils/icons");
+const coreUnits = require("units/core-units");
+const blacklist = require("units/blacklist");
+const euiEvents = require("utils/event/events");
 
 let selectUnitDialog;
 let contentTable = null;

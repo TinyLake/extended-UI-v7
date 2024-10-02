@@ -1,8 +1,8 @@
-const euiEvents = require("extended-ui_MDTX/utils/event/events");
-const drawPlans = require("extended-ui_MDTX/utils/draw/build-plan");
-const adjacentPosition = require("extended-ui_MDTX/utils/ai/adjacent-position");
-const pathfind = require("extended-ui_MDTX/utils/ai/pathfind");
-const busy = require("extended-ui_MDTX/input/busy");
+const euiEvents = require("utils/event/events");
+const drawPlans = require("utils/draw/build-plan");
+const adjacentPosition = require("utils/ai/adjacent-position");
+const pathfind = require("utils/ai/pathfind");
+const busy = require("input/busy");
 
 const pathfindSelector = (block) => {
     if (block == Blocks.conveyor ||

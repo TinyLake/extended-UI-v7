@@ -1,9 +1,9 @@
 importPackage(Packages.arc.util.pooling);
 
-const settings = require("extended-ui_MDTX/settings");
-const iterationTools = require("extended-ui_MDTX/utils/iteration-tools");
-const barBuilder = require("extended-ui_MDTX/utils/draw/bar-builder");
-const camera = require("extended-ui_MDTX/utils/camera");
+const settings = require("settings");
+const iterationTools = require("utils/iteration-tools");
+const barBuilder = require("utils/draw/bar-builder");
+const camera = require("utils/camera");
 
 const unitBarSize = settings.unitBarSize;
 
