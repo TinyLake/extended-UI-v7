@@ -1,7 +1,7 @@
-const euiEvents = require("extended-ui/utils/event/events");
-const drawPlans = require("extended-ui/utils/draw/build-plan");
-const adjacentPosition = require("extended-ui/utils/ai/adjacent-position");
-const busy = require("extended-ui/input/busy");
+const euiEvents = require("extended-ui_MDTX/utils/event/events");
+const drawPlans = require("extended-ui_MDTX/utils/draw/build-plan");
+const adjacentPosition = require("extended-ui_MDTX/utils/ai/adjacent-position");
+const busy = require("extended-ui_MDTX/input/busy");
 
 const targetBlock = Blocks.vault;
 let isListen = false;

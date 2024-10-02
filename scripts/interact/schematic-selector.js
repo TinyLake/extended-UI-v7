@@ -1,5 +1,5 @@
-const euiEvents = require("extended-ui/utils/event/events");
-const schematicsCreate = require("extended-ui/utils/schematics");
+const euiEvents = require("extended-ui_MDTX/utils/event/events");
+const schematicsCreate = require("extended-ui_MDTX/utils/schematics");
 
 let drawing = false;
 let startDrawX = 0;

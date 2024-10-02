@@ -1,5 +1,5 @@
-const iterationTools = require("extended-ui/utils/iteration-tools");
-const formattingUtil = require("extended-ui/utils/formatting");
+const iterationTools = require("extended-ui_MDTX/utils/iteration-tools");
+const formattingUtil = require("extended-ui_MDTX/utils/formatting");
 
 const powerBarDefaultWidth = 300;
 const powerBarDefaultHeight = 25;

@@ -1,4 +1,4 @@
-const timer = require("extended-ui/interact/interact-timer");
+const timer = require("extended-ui_MDTX/interact/interact-timer");
 
 Events.run(Trigger.update, () => {
     if (!Core.settings.getBool("eui-auto-fill", false) || !timer.canInteract()) return;

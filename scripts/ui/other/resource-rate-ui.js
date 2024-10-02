@@ -1,6 +1,6 @@
-const Difference = require("extended-ui/utils/difference");
-const formattingUtil = require("extended-ui/utils/formatting");
-const powerUI = require("extended-ui/ui/other/power-ui");
+const Difference = require("extended-ui_MDTX/utils/difference");
+const formattingUtil = require("extended-ui_MDTX/utils/formatting");
+const powerUI = require("extended-ui_MDTX/ui/other/power-ui");
 
 const diffs = {};
 

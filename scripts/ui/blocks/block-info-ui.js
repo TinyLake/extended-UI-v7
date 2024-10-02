@@ -1,4 +1,4 @@
-const formattingUtil = require("extended-ui/utils/formatting");
+const formattingUtil = require("extended-ui_MDTX/utils/formatting");
 let contentTable;
 
 let hovered = null;

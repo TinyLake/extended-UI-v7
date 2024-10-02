@@ -1,8 +1,8 @@
-const iterationTools = require("extended-ui/utils/iteration-tools");
-const relativeValue = require("extended-ui/utils/relative-value");
-const supportUnits = require("extended-ui/units/support-units");
-const coreUnits = require("extended-ui/units/core-units");
-const blacklist = require("extended-ui/units/blacklist");
+const iterationTools = require("extended-ui_MDTX/utils/iteration-tools");
+const relativeValue = require("extended-ui_MDTX/utils/relative-value");
+const supportUnits = require("extended-ui_MDTX/units/support-units");
+const coreUnits = require("extended-ui_MDTX/units/core-units");
+const blacklist = require("extended-ui_MDTX/units/blacklist");
 
 exports.getUnitsValueTop = function(amountToDisplay, granulatiry, hideCoreUnits, hideSupportUnits) {
     let unitsIterator = Groups.unit.iterator();

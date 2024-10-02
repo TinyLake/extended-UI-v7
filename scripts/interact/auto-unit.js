@@ -1,4 +1,4 @@
-const timer = require("extended-ui/interact/interact-timer");
+const timer = require("extended-ui_MDTX/interact/interact-timer");
 const BreakException = {};
 
 const tryTime = 300;

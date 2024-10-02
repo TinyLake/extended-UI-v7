@@ -1,6 +1,6 @@
-const bars = require("extended-ui/ui/units/health-shield-bar");
-const playerTracker = require("extended-ui/ui/units/player-tracker");
-const logicTracker = require("extended-ui/ui/units/logic-tracker");
+const bars = require("extended-ui_MDTX/ui/units/health-shield-bar");
+const playerTracker = require("extended-ui_MDTX/ui/units/player-tracker");
+const logicTracker = require("extended-ui_MDTX/ui/units/logic-tracker");
 
 const force = false;
 

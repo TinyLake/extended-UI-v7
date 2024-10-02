@@ -1,4 +1,4 @@
-const euiEvents = require("extended-ui/utils/event/events");
+const euiEvents = require("extended-ui_MDTX/utils/event/events");
 
 let startPos;
 let startTile;
