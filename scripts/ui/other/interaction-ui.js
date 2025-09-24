@@ -1,6 +1,6 @@
-const iconsUtil = require("utils/icons");
-const coreUnits = require("units/core-units");
-const blacklist = require("units/blacklist");
+const iconsUtil = require("extended-ui/utils/icons");
+const coreUnits = require("extended-ui/units/core-units");
+const blacklist = require("extended-ui/units/blacklist");
 
 let selectUnitDialog;
 let contentTable = null;

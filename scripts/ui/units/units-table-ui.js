@@ -1,5 +1,5 @@
-const unitsCounter = require("units/units-counter");
-const barBuilder = require("utils/draw/bar-builder");
+const unitsCounter = require("extended-ui/units/units-counter");
+const barBuilder = require("extended-ui/utils/draw/bar-builder");
 
 const granulatiry = 6;
 const maxToDisplay = 8;
@@ -92,7 +92,11 @@ Events.run(Trigger.draw, () => {
         let x;
         let y;
 
-        if (Vars.player.unit() instanceof NullUnit) {
+        if (Version.number >= 8 && Vars.player.unit() == null) {
+            const position = Core.camera.position;
+            x = position.x;
+            y = position.y;
+        } else if (Version.number < 8 && Vars.player.unit() instanceof NullUnit) {
             const position = Core.camera.position;
             x = position.x;
             y = position.y;
