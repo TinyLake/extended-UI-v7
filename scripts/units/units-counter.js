@@ -1,8 +1,8 @@
-const iterationTools = require("extended-ui/utils/iteration-tools");
-const relativeValue = require("extended-ui/utils/relative-value");
-const supportUnits = require("extended-ui/units/support-units");
-const coreUnits = require("extended-ui/units/core-units");
-const blacklist = require("extended-ui/units/blacklist");
+const iterationTools = require("utils/iteration-tools");
+const relativeValue = require("utils/relative-value");
+const supportUnits = require("units/support-units");
+const coreUnits = require("units/core-units");
+const blacklist = require("units/blacklist");
 
 exports.getUnitsValueTop = function(amountToDisplay, granulatiry, hideCoreUnits, hideSupportUnits) {
     let unitsIterator = Groups.unit.iterator();

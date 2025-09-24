@@ -1,6 +1,6 @@
-const Alerts = require("extended-ui/ui/alerts/alert");
-const output = require("extended-ui/utils/output-wrapper");
-const supportUnits = require("extended-ui/units/support-units");
+const Alerts = require("ui/alerts/alert");
+const output = require("utils/output-wrapper");
+const supportUnits = require("units/support-units");
 
 const maxTime = 60*300 // 5 min;
 
